@@ -1,0 +1,8 @@
+BUILD:
+ 
+g++ main.cpp -fno-stack-protector -z execstack -no-pie
+
+
+Disable ASLR
+
+sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'

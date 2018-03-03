@@ -1,9 +1,13 @@
 // ConsoleApplication1.cpp : Defines the entry point for the console application.
 //
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52d4476668809855cba735ce6bffa59be4b0dee0
 #include <stdio.h>
 #include <string.h>
-#include <iostream>
+
 using namespace std;
 int hidden() {
 	system("cmd");
